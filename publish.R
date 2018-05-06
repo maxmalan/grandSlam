@@ -1,1 +1,0 @@
-publish(title = 'gs', 'index.html', host = 'rpubs')
