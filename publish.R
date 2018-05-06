@@ -1,1 +1,1 @@
-publish(publish(user = "maxmalan", repo = "GrandSlamWinners"))
+publish(title = 'gs', 'index.html', host = 'rpubs')
