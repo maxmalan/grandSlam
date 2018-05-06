@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grand Slam men's single champions in the Open Era</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Grand Slam men's single champions in the Open Era">
+  <meta name="author" content="Massimo Malandra">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Grand Slam men's single champions in the Open Era</h1>
+    <h2>A data visualization from 1968 to 2018</h2>
+    <p>Massimo Malandra<br/>Data Scientist</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    <style>
+
+slides > slide {
+    background: #F5FFFA;
+}
+
+.title-slide {
+  background-color: #A2CD5A;
+}
+
+.title-slide hgroup > h1, 
+.title-slide hgroup > h2 {
+  color: #FFFFFF ;
+}
+
+em {
+  font-style: italic
+}
+
+strong {
+  font-weight: bold;
+}
+
+bigger {
+  font-size: 125%;
+  font-style: italic;
+  color: #AA9A39;
+   }
+
+</style>
+
+<h2>The Open Era winners</h2>
+
+<p><br/></p>
+
+<p>This application contains an illustration of <strong>all the Grand Slam men&#39;s single champions in the Open Era</strong>.
+<br/></p>
+
+<p>The analysis includes all Grand Slam tournaments from <b>1968</b> (excluding Australian Open of the same year, who was still under the Non-Open Era) to <b>2018</b>, and it is updated up to May 3rd 2018, hence the only 2018 Grand Slam tournament taken into account is the Australian Open, played last January in Melbourne.
+<br/></p>
+
+<p>Notice that 1977 Australian Open was played twice in the same year, in January and December.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Prize Money</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Prize money information was mainly taken from the following link:
+<br/>
+<a href="https://github.com/popovichN/grand-slam-prize-money">https://github.com/popovichN/grand-slam-prize-money</a>
+<br/>
+Thanks to the data gathered and made available by Nadja Popovich, and her extremely interesing article for the Guardian US:
+<br/></p>
+
+<p><em>&quot;Battle of the sexes: charting how women in tennis achieved equal pay&quot;</em>, Nadja Popovich, Guardian, 11 September 2015.
+<br/></p>
+
+<p>The information for the years not included in the above file was retrieved from different Wikipedia pages, of the specific single tournament.
+Data for 1969 <b>Australian Open</b> prize money were not available so an estimation has been made, based on the subsequent years and other sources.
+<br/></p>
+
+<p>All imports have been converted from Australian dollars, Britihs Pounds, French Francs and Euro to US dollars according to the Google Finance currency rates at April 20th, 2018.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Grand Slam winners plot</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The one below is a &#39;static&#39; version of the visualization available in the Shiny app: the scatterplot displays the total earnings in US dollars (in millions of US dollars) on the x-axis and the total number of Slam tournaments won on the y-axis. The size of the points represent the age of the player at his first Slam title win and the different colors indicate the maximum number of titles won in the same year by the player.</p>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Some highlights</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The only player to have ever achieved a <b>Grand Slam</b> (all 4 different tournaments in the same year) is <bigger>Rod Laver</bigger>.
+<br/></p>
+
+<p>The <b>youngest</b> player to ever win a Slam tournament was <bigger>Michael Chang</bigger>, who won the Roland Garros Open at the age of 17.
+<br/></p>
+
+<p>The player with <b>most title</b> won (12) and <b>highest earnings</b> is <bigger>Roger Federer</bigger>.
+<br/></p>
+
+<p>The only <b>African player</b> to ever won a Slam tournament is <bigger>Johan Kriek</bigger>, from South Africa.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='NA'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Prize Money'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Grand Slam winners plot'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Some highlights'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
